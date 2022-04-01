@@ -1,0 +1,13 @@
+/* responsividade */
+
+@media screen and (max-width: 600px){
+    header .container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .cover img{
+        display: none;
+    }
+     
+}

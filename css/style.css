@@ -1,0 +1,117 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family:sans-serif ;
+    color: #eee;
+}
+header{
+    padding: 10px 20px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav a{
+    color: #aaa;
+    text-decoration: none;
+    margin: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: "arial black", times;
+    font-size: 40px;
+}
+
+/* game principal */
+
+.main-game .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-game{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50),rgba(0,0,0, .50) 100%), url("/img/bg-elden.png");
+
+    height: 400px;
+    width: 100%;
+    padding: 0 20px;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.cover img{
+    height: 250px;
+    margin-top: 15%;
+    margin-left: 5px;
+    margin-right: 10px;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .50);
+}
+
+.main-game .title{
+    margin-top: 15%;
+    font-size: 40px;
+    
+}
+
+.main-game .description{
+    margin-top: 10px;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.main-game .buttons .btn{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    width: 150px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.main-game .buttons .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.main-game .buttons .btn i{
+    margin-right: 5px;
+}
+
+.carousel{
+    margin-top: 10px;
+}
+
+
+
