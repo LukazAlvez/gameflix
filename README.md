@@ -4,3 +4,5 @@ Clone netflix voltada para jogos.
  - Html
  - CSS
  - Jquery
+
+<a href= "https://my-gameflix.netlify.app/">Veja</a>
